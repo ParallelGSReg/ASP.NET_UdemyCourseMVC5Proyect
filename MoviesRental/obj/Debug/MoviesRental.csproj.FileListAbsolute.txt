@@ -272,3 +272,5 @@ C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.c
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.csproj.CopyComplete
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.dll
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.pdb
+C:\Users\usuario\source\repos\MoviesRental\MoviesRental\bin\AutoMapper.dll
+C:\Users\usuario\source\repos\MoviesRental\MoviesRental\bin\AutoMapper.xml

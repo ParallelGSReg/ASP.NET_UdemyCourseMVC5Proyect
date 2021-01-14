@@ -15,7 +15,7 @@ namespace MoviesRental.Models
         [StringLength(255)]        
         public string Name { get; set; }
 
-        [Display(Name = "Date of Birth")] //permite mostrar otro nombre
+        //[Display(Name = "Date of Birth")] //permite mostrar otro nombre
         [Min18YearsIfAMember]
         public DateTime? Birthdate { get; set; }
 
@@ -23,7 +23,7 @@ namespace MoviesRental.Models
 
         public MembershipType MembershipType { get; set; }
 
-        [Display(Name = "Membership Type")]
+        //[Display(Name = "Membership Type")]
         public byte MembershipTypeId { get; set; }
     }
 }
