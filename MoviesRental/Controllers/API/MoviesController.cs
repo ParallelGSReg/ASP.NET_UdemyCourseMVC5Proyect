@@ -3,6 +3,7 @@ using MoviesRental.App_Start;
 using MoviesRental.Dtos;
 using MoviesRental.Models;
 using System;
+using System.Data.Entity;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -27,10 +28,14 @@ namespace MoviesRental.Controllers.API
         }
 
         // GET /api/movies
-        public IEnumerable<MovieDto> GetMovies()
-        {            
-            return _context.Movies.ToList().Select(iMapper.Map<Movie, MovieDto>);
-        }
+        public IHttpActionResult GetMovies()
+        {
+            var moviesDtos = _context.Movies
+                .Include(m => m.Genre)
+                .ToList()
+                .Select(iMapper.Map<Movie, MovieDto>);
+            return Ok(moviesDtos);
+        }   
 
         // GET /api/movies/1
         public IHttpActionResult GetMovie(int id)
