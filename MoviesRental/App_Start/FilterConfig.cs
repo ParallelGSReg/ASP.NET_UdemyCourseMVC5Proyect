@@ -9,6 +9,7 @@ namespace MoviesRental
         {
             filters.Add(new HandleErrorAttribute());
             filters.Add(new AuthorizeAttribute()); //pide login en todo el sitio
+            filters.Add(new RequireHttpsAttribute());
         }
     }
 }

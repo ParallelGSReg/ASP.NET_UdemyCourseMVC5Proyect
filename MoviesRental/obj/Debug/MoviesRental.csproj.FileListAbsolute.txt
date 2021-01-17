@@ -274,3 +274,4 @@ C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.d
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.pdb
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\bin\AutoMapper.dll
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\bin\AutoMapper.xml
+C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.Migrations.AddDrivingLicenseToApplicationUser.resources
