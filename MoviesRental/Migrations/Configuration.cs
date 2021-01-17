@@ -49,6 +49,17 @@ namespace MoviesRental.Migrations
                    }
            );
 
+            context.Movies.AddOrUpdate(i => i.Name,
+                new Movie
+                {
+                    Name = "El gran robo",                    
+                    GenreId = 2,                    
+                    DateAdded = DateTime.Parse("1981-04-10"),
+                    ReleaseDate = DateTime.Parse("1989-1-11"),
+                    NumberInStock = 5
+                }
+           );
+
         }
     }
 }

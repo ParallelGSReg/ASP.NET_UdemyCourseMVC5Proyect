@@ -228,33 +228,13 @@
     <Compile Include="Migrations\202101100434362_AddBirthdayToCustomers.Designer.cs">
       <DependentUpon>202101100434362_AddBirthdayToCustomers.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202101100455466_PopulateCostumers.cs" />
-    <Compile Include="Migrations\202101100455466_PopulateCostumers.Designer.cs">
-      <DependentUpon>202101100455466_PopulateCostumers.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\202101101343360_AddBirthNulleableAndNameRequired.cs" />
     <Compile Include="Migrations\202101101343360_AddBirthNulleableAndNameRequired.Designer.cs">
       <DependentUpon>202101101343360_AddBirthNulleableAndNameRequired.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202101101345361_InitialModel1.cs" />
-    <Compile Include="Migrations\202101101345361_InitialModel1.Designer.cs">
-      <DependentUpon>202101101345361_InitialModel1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202101101459013_AddSeedInitializar.cs" />
-    <Compile Include="Migrations\202101101459013_AddSeedInitializar.Designer.cs">
-      <DependentUpon>202101101459013_AddSeedInitializar.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202101101504434_PopulateCostumers1.cs" />
-    <Compile Include="Migrations\202101101504434_PopulateCostumers1.Designer.cs">
-      <DependentUpon>202101101504434_PopulateCostumers1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\202101101506091_PopulateCostumers2.cs" />
     <Compile Include="Migrations\202101101506091_PopulateCostumers2.Designer.cs">
       <DependentUpon>202101101506091_PopulateCostumers2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202101101527498_RePopulateMembershipTypes1.cs" />
-    <Compile Include="Migrations\202101101527498_RePopulateMembershipTypes1.Designer.cs">
-      <DependentUpon>202101101527498_RePopulateMembershipTypes1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\202101101630249_AddMovie.cs" />
     <Compile Include="Migrations\202101101630249_AddMovie.Designer.cs">
@@ -272,21 +252,13 @@
     <Compile Include="Migrations\202101111817189_CambioEnAtributos.Designer.cs">
       <DependentUpon>202101111817189_CambioEnAtributos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202101112213099_CambioEnAtributosMovie.cs" />
-    <Compile Include="Migrations\202101112213099_CambioEnAtributosMovie.Designer.cs">
-      <DependentUpon>202101112213099_CambioEnAtributosMovie.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\202101121851418_CambioOrdenPropertiesMovie.cs" />
     <Compile Include="Migrations\202101121851418_CambioOrdenPropertiesMovie.Designer.cs">
       <DependentUpon>202101121851418_CambioOrdenPropertiesMovie.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202101131616028_PopulateCustomers.cs" />
-    <Compile Include="Migrations\202101131616028_PopulateCustomers.Designer.cs">
-      <DependentUpon>202101131616028_PopulateCustomers.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202101162251096_AddDrivingLicenseToApplicationUser.cs" />
-    <Compile Include="Migrations\202101162251096_AddDrivingLicenseToApplicationUser.Designer.cs">
-      <DependentUpon>202101162251096_AddDrivingLicenseToApplicationUser.cs</DependentUpon>
+    <Compile Include="Migrations\202101171945242_InitialModel1.cs" />
+    <Compile Include="Migrations\202101171945242_InitialModel1.Designer.cs">
+      <DependentUpon>202101171945242_InitialModel1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -586,26 +558,11 @@
     <EmbeddedResource Include="Migrations\202101100434362_AddBirthdayToCustomers.resx">
       <DependentUpon>202101100434362_AddBirthdayToCustomers.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202101100455466_PopulateCostumers.resx">
-      <DependentUpon>202101100455466_PopulateCostumers.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202101101343360_AddBirthNulleableAndNameRequired.resx">
       <DependentUpon>202101101343360_AddBirthNulleableAndNameRequired.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202101101345361_InitialModel1.resx">
-      <DependentUpon>202101101345361_InitialModel1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202101101459013_AddSeedInitializar.resx">
-      <DependentUpon>202101101459013_AddSeedInitializar.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202101101504434_PopulateCostumers1.resx">
-      <DependentUpon>202101101504434_PopulateCostumers1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202101101506091_PopulateCostumers2.resx">
       <DependentUpon>202101101506091_PopulateCostumers2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202101101527498_RePopulateMembershipTypes1.resx">
-      <DependentUpon>202101101527498_RePopulateMembershipTypes1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202101101630249_AddMovie.resx">
       <DependentUpon>202101101630249_AddMovie.cs</DependentUpon>
@@ -619,17 +576,11 @@
     <EmbeddedResource Include="Migrations\202101111817189_CambioEnAtributos.resx">
       <DependentUpon>202101111817189_CambioEnAtributos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202101112213099_CambioEnAtributosMovie.resx">
-      <DependentUpon>202101112213099_CambioEnAtributosMovie.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202101121851418_CambioOrdenPropertiesMovie.resx">
       <DependentUpon>202101121851418_CambioOrdenPropertiesMovie.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202101131616028_PopulateCustomers.resx">
-      <DependentUpon>202101131616028_PopulateCustomers.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202101162251096_AddDrivingLicenseToApplicationUser.resx">
-      <DependentUpon>202101162251096_AddDrivingLicenseToApplicationUser.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202101171945242_InitialModel1.resx">
+      <DependentUpon>202101171945242_InitialModel1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

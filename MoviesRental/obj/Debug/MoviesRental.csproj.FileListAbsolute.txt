@@ -253,20 +253,13 @@ C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.M
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.Migrations.AddNameToMembershipTypeClass.resources
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.Migrations.RePopulateMembershipTypes.resources
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.Migrations.AddBirthdayToCustomers.resources
-C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.Migrations.PopulateCostumers.resources
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.Migrations.AddBirthNulleableAndNameRequired.resources
-C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.Migrations.InitialModel1.resources
-C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.Migrations.AddSeedInitializar.resources
-C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.Migrations.PopulateCostumers1.resources
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.Migrations.PopulateCostumers2.resources
-C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.Migrations.RePopulateMembershipTypes1.resources
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.Migrations.AddMovie.resources
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.Migrations.PopulateGenre.resources
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.Migrations.ReleaseDateAllowNull.resources
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.Migrations.CambioEnAtributos.resources
-C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.Migrations.CambioEnAtributosMovie.resources
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.Migrations.CambioOrdenPropertiesMovie.resources
-C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.Migrations.PopulateCustomers.resources
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.csproj.GenerateResource.cache
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.csproj.CoreCompileInputs.cache
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.csproj.CopyComplete
@@ -274,4 +267,4 @@ C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.d
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.pdb
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\bin\AutoMapper.dll
 C:\Users\usuario\source\repos\MoviesRental\MoviesRental\bin\AutoMapper.xml
-C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.Migrations.AddDrivingLicenseToApplicationUser.resources
+C:\Users\usuario\source\repos\MoviesRental\MoviesRental\obj\Debug\MoviesRental.Migrations.InitialModel1.resources
