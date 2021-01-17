@@ -8,7 +8,8 @@ using System.Web.Mvc;
 using MoviesRental.Models;
 
 namespace MoviesRental.Controllers
-{
+{  
+    //[Authorize(Roles = RoleName.CanManageMovies)] //autoriza un rol determinado
     public class CustomersController : Controller
     {        
         private ApplicationDbContext _context;

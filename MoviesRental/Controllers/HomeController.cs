@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace MoviesRental.Controllers
 {
+    [AllowAnonymous] //habilito entrar al home sin loguearse
     public class HomeController : Controller
     {
         public ActionResult Index()

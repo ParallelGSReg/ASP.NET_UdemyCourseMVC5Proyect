@@ -99,7 +99,10 @@ namespace MoviesRental.Controllers
         //public ActionResult Index(int? pageIndex, string sortBy)
         public ActionResult Index()
         {
-            return View();           
+            if (User.IsInRole(RoleName.CanManageMovies))
+                return View("ReadOnlyList");   
+            
+            return View("List");
         }
 
         public ActionResult Details(int id)
